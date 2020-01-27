@@ -1,0 +1,402 @@
+/*------------------------------------------
+**             08/01/2020
+**        Realizado por: AspectoX
+**        http://aspectox.esy.es/
+**      aspectox.creativa@gmail.com
+**------------------------------------------*/
+/* -----------------------
+* COMPLEMENTOS
+-------------------------- */
+.transparent:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Boton menu
+--------------------- */
+/* -----------------------
+* GENERAL
+-------------------------- */
+/* -----------------------
+* HEADER
+-------------------------- */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.header .header-top {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.header .date {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.header .header-social-lista {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 auto;
+}
+
+.header .header-social-lista .header-social_item {
+  margin-right: 0.5rem;
+}
+
+.header .header-social-lista .header-social_item a {
+  color: #FFF !important;
+}
+
+.header .header-logo {
+  padding: 1.25rem;
+  text-align: center;
+  margin: 1.25rem 0;
+}
+
+.header .header-logo .header-logo_img {
+  width: 100%;
+}
+
+.header .header-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* -----------------------
+* NAVBAR
+-------------------------- */
+.navbar {
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.navbar .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.navbar .menu li {
+  display: inline-block;
+  position: relative;
+  font-size: 75%;
+  text-transform: uppercase;
+}
+
+.navbar .menu li::after {
+  content: "|";
+}
+
+.navbar .menu li:last-of-type:after {
+  content: "";
+}
+
+.navbar .menu li a {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.5) !important;
+  padding: 0.5rem 1.25rem;
+}
+
+.navbar .menu li a:hover {
+  color: #CB4854 !important;
+}
+
+.navbar .menu .active {
+  font-weight: 800;
+}
+
+/* -----------------------
+* MAIN
+-------------------------- */
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.main .colum-main {
+  border-right: none;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.main .colum-main .article-item_uno {
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main .colum-main .article-item_uno h1.title {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.main .colum-main .article-item_uno h1.title a {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.main .colum-main .article-item_uno img {
+  margin: .5rem 0;
+}
+
+.main .colum-main .article-item_uno .article-item_copete {
+  font-family: 'Gelasio', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+  margin-top: .5rem;
+}
+
+.main .colum-main .article-item_x2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main .colum-main .article-item_x2:nth-child(2) {
+  border-right: none;
+}
+
+.main .colum-main .article-item_x2 h3.title a {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 800;
+  padding-bottom: 1.25rem;
+}
+
+.main .colum-main .article-item_x2 img {
+  margin: 1rem 0;
+}
+
+.main .colum-main .main-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .colum-aside {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.main .columna12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cotizaciones {
+  margin: 1.25rem 0;
+}
+
+.cotizaciones h6 {
+  color: #CB4854;
+  font-weight: 800;
+}
+
+/* -----------------------
+* FOOTER
+-------------------------- */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.footer h5 {
+  font-weight: 800;
+}
+
+.footer .footer-menu-item {
+  display: inline-block;
+  width: auto;
+  margin: 0 0 .5rem .5rem;
+}
+
+.footer .footer-menu-item.active {
+  font-weight: 600;
+}
+
+/* -----------------------
+* WIDGET
+-------------------------- */
+.weather-widget {
+  background: #08f;
+  color: #fff;
+  border-width: 0;
+  padding: 0.625rem;
+}
+
+.weather-widget .widget-title {
+  font-size: 1.0625rem;
+  color: #ffffff;
+}
+
+.weather-widget .weather-wrap {
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px 0 20px;
+  line-height: 1;
+}
+
+.weather-widget .weather-wrap .weather-icon-and-city {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.weather-widget .weather-wrap .weather-icon-and-city .weather-icon {
+  font-family: 'tiefonticon';
+  position: relative;
+  margin: 0 auto 0.1em;
+  font-size: 75px;
+  width: 1em;
+  height: 0.9em;
+}
+
+.weather-widget .weather-wrap .weather-icon-and-city .weather-name {
+  font-size: 32px;
+  padding-top: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.weather-widget .weather-wrap .weather-icon-and-city .weather-desc {
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.weather-widget .weather-wrap .weather-todays-stats {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.weather-widget .weather-wrap .weather-todays-stats .weather-current-temp {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.weather-widget .weather-wrap .weather-todays-stats .weather-current-temp sup {
+  font-size: 17px;
+  vertical-align: super;
+  font-weight: normal;
+}
+
+.weather-widget .weather-wrap .weather-todays-stats .weather-more-todays-stats {
+  text-align: left;
+  line-height: 1.6;
+  font-size: 90%;
+}
+
+.weather-widget .weather-wrap .weather-forecast {
+  clear: both;
+  padding-top: 0.625rem;
+  overflow: hidden;
+}
+
+.weather-widget .weather-wrap .weather-forecast .weather-forecast-day {
+  position: relative;
+  width: 1%;
+  display: table-cell;
+  text-align: center;
+}
+
+.weather-widget .weather-wrap .weather-forecast .weather-forecast-day .weather-icon {
+  font-family: 'tiefonticon';
+  font-size: 35px;
+}
+
+.weather-widget .weather-wrap .weather-forecast .weather-forecast-day-temp {
+  font-size: 14px;
+}
+
+.weather-widget .weather-wrap .weather-forecast .weather-forecast-day-abbr {
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-top: 3px;
+  line-height: 1.4;
+}
+
+.banner-aside {
+  display: block;
+  width: 100%;
+  padding: 1.25rem 0;
+}
+
+/* -----------------------
+* MEDIA
+-------------------------- */
+/* sm */
+/* md */
+@media only screen and (min-width: 816px) {
+  .main .colum-main {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .main .colum-main .article-item_x2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .main .colum-main .article-item_x2:nth-child(2) {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* lg */
+/* xl */
+/* xxl */
+/*# sourceMappingURL=template.css.map */
